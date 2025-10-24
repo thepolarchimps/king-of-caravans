@@ -1,0 +1,224 @@
+.release-showcase {
+  font-family: 'Inconsolata', 'printf', monospace;
+  background-color: #fff;
+  color: #000;
+}
+
+.release-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: clamp(3rem, 6vw, 5rem) 0;
+  transition: background-color 200ms ease;
+}
+
+.release-section--dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.release-section--light {
+  background-color: #fff;
+  color: #111;
+}
+
+.release-container {
+  width: min(92vw, 1040px);
+  margin: 0 auto;
+}
+
+.release-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: clamp(2rem, 5vw, 3.5rem);
+  align-items: center;
+}
+
+.release-details {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1.25rem, 2.5vw, 2rem);
+  order: 1;
+}
+
+.release-section--art-left .release-details {
+  order: 2;
+}
+
+.release-section--art-right .release-details {
+  order: 1;
+}
+
+.release-title {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: clamp(2.2rem, 4vw, 3rem);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding-bottom: 0.75rem;
+  border-bottom: 4px solid currentColor;
+}
+
+.release-subtitle {
+  font-size: clamp(1rem, 1.6vw, 1.2rem);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.release-meta {
+  margin: 0;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.65;
+}
+
+.release-links {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.8rem, 1.8vw, 1.25rem);
+}
+
+.release-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.9rem;
+  font-size: clamp(1.3rem, 2.4vw, 1.7rem);
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  transition: transform 200ms ease, opacity 200ms ease;
+}
+
+.release-link--light {
+  color: #fff;
+}
+
+.release-link--dark {
+  color: #000;
+}
+
+.release-link:hover,
+.release-link:focus-visible {
+  transform: translateX(6px) scale(1.02);
+  opacity: 0.9;
+}
+
+.release-link__icon {
+  font-family: 'Icomoon';
+  font-size: clamp(2.1rem, 4vw, 2.6rem);
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.release-artwork {
+  display: flex;
+  justify-content: center;
+  order: 2;
+}
+
+.release-section--art-left .release-artwork {
+  order: 1;
+}
+
+.release-artwork__frame {
+  position: relative;
+  margin: 0;
+  width: min(85vw, 520px);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 70px 100px -35px rgba(0, 0, 0, 0.35);
+  transition: transform 280ms ease, box-shadow 280ms ease;
+}
+
+.release-section--dark .release-artwork__frame {
+  box-shadow: 0 60px 120px -45px rgba(0, 0, 0, 0.6);
+}
+
+.release-artwork__frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 280ms ease;
+}
+
+.release-artwork__frame::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0));
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 280ms ease;
+}
+
+.release-artwork__frame:hover,
+.release-artwork__frame:focus-visible {
+  transform: rotate(-2deg) scale(1.02);
+  box-shadow: 0 80px 120px -45px rgba(0, 0, 0, 0.45);
+}
+
+.release-artwork__frame:hover img,
+.release-artwork__frame:focus-visible img {
+  transform: scale(1.05);
+}
+
+.release-artwork__frame:hover::after,
+.release-artwork__frame:focus-visible::after {
+  opacity: 1;
+}
+
+.release-artwork__credit {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.release-section--dark .release-artwork__credit {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.release-section--light .release-artwork__credit {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 900px) {
+  .release-section {
+    min-height: auto;
+  }
+
+  .release-meta {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .release-section {
+    padding: clamp(2.5rem, 9vw, 4rem) 0;
+  }
+
+  .release-title {
+    text-align: center;
+  }
+
+  .release-details {
+    align-items: center;
+    text-align: center;
+  }
+
+  .release-links {
+    align-items: center;
+  }
+
+  .release-link {
+    justify-content: center;
+  }
+}

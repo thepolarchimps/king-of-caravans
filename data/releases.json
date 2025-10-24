@@ -1,0 +1,100 @@
+[
+  {
+    "id": "sisterbrotherlover",
+    "title": "SisterBrotherLover",
+    "type": "Single",
+    "artwork": {
+      "src": "/images/king-of-caravans-sisterbrotherlover.jpg",
+      "alt": "Cover art for SisterBrotherLover by King of Caravans"
+    },
+    "links": [
+      {
+        "platform": "spotify",
+        "url": "https://open.spotify.com/album/1Grpoexs57KZbuu9FMLfNy",
+        "priority": 0
+      },
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/watch?v=JmHpUfJOr0w",
+        "priority": 1
+      },
+      {
+        "platform": "applemusic",
+        "url": "https://music.apple.com/us/album/sisterbrotherlover-single/1542535295?uo=4",
+        "priority": 2
+      },
+      {
+        "platform": "more",
+        "label": "More...",
+        "url": "https://distrokid.com/hyperfollow/kingofcaravans/sisterbrotherlover",
+        "priority": 3
+      }
+    ]
+  },
+  {
+    "id": "rolling-stone",
+    "title": "Rolling Stone (It's Time to Take the Blame)",
+    "type": "Single",
+    "artwork": {
+      "src": "/images/king-of-caravans-Rolling-Stone.png",
+      "alt": "Cover art for Rolling Stone (It's Time to Take the Blame) by King of Caravans"
+    },
+    "links": [
+      {
+        "platform": "spotify",
+        "url": "https://open.spotify.com/album/5qd0WWqEJ6EpYgeJniXSgu",
+        "priority": 0
+      },
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/watch?v=MGrjgHmsErw&list=OLAK5uy_n_FVHBhCV06BLGV0_qxpRJfturK2yUkfY",
+        "priority": 1
+      },
+      {
+        "platform": "applemusic",
+        "url": "https://music.apple.com/us/album/rolling-stone-its-time-to-take-the-blame-single/1531421288?uo=4",
+        "priority": 2
+      },
+      {
+        "platform": "more",
+        "label": "More...",
+        "url": "https://distrokid.com/hyperfollow/kingofcaravans/rolling-stone-its-time-to-take-the-blame",
+        "priority": 3
+      }
+    ],
+    "layout": "art-left"
+  },
+  {
+    "id": "damned-if-you-understand",
+    "title": "Damned if You Understand",
+    "type": "EP",
+    "artwork": {
+      "src": "/images/king-of-caravans-damned-if-you-understand.png",
+      "alt": "Cover art for Damned if You Understand by King of Caravans"
+    },
+    "links": [
+      {
+        "platform": "spotify",
+        "url": "https://open.spotify.com/album/69UAnNdv3xoPTw7e4UCdmW",
+        "priority": 0
+      },
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/results?search_query=king+of+caravans+damned+if+you+understand",
+        "priority": 1
+      },
+      {
+        "platform": "applemusic",
+        "url": "https://music.apple.com/us/album/damned-if-you-understand-ep/1492008100?uo=4",
+        "priority": 2
+      },
+      {
+        "platform": "more",
+        "label": "More...",
+        "url": "https://distrokid.com/hyperfollow/kingofcaravans/damned-if-you-understand",
+        "priority": 3
+      }
+    ],
+    "theme": "dark"
+  }
+]
