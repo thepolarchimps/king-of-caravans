@@ -4,9 +4,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export const metadata = {
-  title: 'King of Caravans',
+  title: 'King Of Caravans',
   description:
-    'Discover the latest King of Caravans releases.'
+    'Discover the latest King Of Caravans releases.'
 };
 
 const HomePage = () => (
@@ -14,14 +14,14 @@ const HomePage = () => (
     <section className="hero">
       <Image
         src="/images/king-of-caravans-damned-if-you-understand.png"
-        alt="King of Caravans artwork collage"
+        alt="King Of Caravans artwork collage"
         fill
         priority
         className="hero__image"
         sizes="100vw"
       />
       <div className="hero__content">
-        <span className="hero__eyebrow">King of Caravans</span>
+        <span className="hero__eyebrow">King Of Caravans</span>
         <h1 className="hero__headline">"Found a Ballroom" is out now.</h1>
         <p className="page-description">
           Featuring Maddie Blair and available everywhere you stream—tap below and explore the full catalog.

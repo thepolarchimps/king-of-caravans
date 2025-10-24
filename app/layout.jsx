@@ -5,9 +5,9 @@ import Link from 'next/link';
 import Script from 'next/script';
 
 const siteUrl = 'https://kingofcaravans.co.uk';
-const siteName = 'King of Caravans';
+const siteName = 'King Of Caravans';
 const siteDescription =
-  'Official home of King of Caravans — explore releases, connect on socials, and keep up with new music.';
+  'Official home of King Of Caravans — explore releases, connect on socials, and keep up with new music.';
 const coverImage = '/images/FacingTheStrange7.1001.jpg';
 
 export const metadata = {
@@ -18,7 +18,7 @@ export const metadata = {
   },
   description: siteDescription,
   keywords: [
-    'King of Caravans',
+    'King Of Caravans',
     'music releases',
     'alternative rock',
     'indie music',
@@ -41,7 +41,7 @@ export const metadata = {
         url: coverImage,
         width: 1200,
         height: 1200,
-        alt: 'King of Caravans cover art'
+        alt: 'King Of Caravans cover art'
       }
     ]
   },
@@ -75,7 +75,7 @@ const structuredData = {
   member: [
     {
       '@type': 'Person',
-      name: 'King of Caravans'
+      name: 'King Of Caravans'
     }
   ]
 };
@@ -103,7 +103,7 @@ const RootLayout = ({ children }) => {
           <header className="site-header">
             <div className="site-header__inner">
               <Link href="/" className="site-title">
-                King of Caravans
+                King Of Caravans
               </Link>
               <Navigation />
             </div>
@@ -112,7 +112,7 @@ const RootLayout = ({ children }) => {
           <main className="app-content">{children}</main>
 
           <footer className="site-footer">
-            © {currentYear} King of Caravans. All rights reserved.
+            © {currentYear} King Of Caravans. All rights reserved.
           </footer>
         </div>
       </body>

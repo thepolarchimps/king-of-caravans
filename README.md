@@ -1,6 +1,6 @@
-# King of Caravans · Next.js Site
+# King Of Caravans · Next.js Site
 
-This project packages the Webflow design into a reusable Next.js app for the King of Caravans collective. It keeps the custom `printf` typography, IcoMoon iconography, and the alternating release showcase pattern while adding routing for home, releases, and connect pages.
+This project packages the Webflow design into a reusable Next.js app for the King Of Caravans collective. It keeps the custom `printf` typography, IcoMoon iconography, and the alternating release showcase pattern while adding routing for home, releases, and connect pages.
 
 ## Getting started
 

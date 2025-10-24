@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'Connect',
   description:
-    'Connect with King of Caravans across Spotify, YouTube, Apple Music, email, and SoundCloud for the latest news.'
+    'Connect with King Of Caravans across Spotify, YouTube, Apple Music, email, and SoundCloud for the latest news.'
 };
 
 const connectLinks = [
