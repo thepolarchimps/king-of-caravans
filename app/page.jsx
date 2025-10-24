@@ -3,6 +3,12 @@ import releases from '../data/releases.json';
 import Link from 'next/link';
 import Image from 'next/image';
 
+export const metadata = {
+  title: 'King of Caravans',
+  description:
+    'Discover the latest King of Caravans releases.'
+};
+
 const HomePage = () => (
   <>
     <section className="hero">
@@ -16,10 +22,9 @@ const HomePage = () => (
       />
       <div className="hero__content">
         <span className="hero__eyebrow">King of Caravans</span>
-        <h1 className="hero__headline">Facing the strange, record by record.</h1>
+        <h1 className="hero__headline">"Found a Ballroom" is out now.</h1>
         <p className="page-description">
-          Melodic grit and widescreen storytelling from the King of Caravans collective.
-          Scroll the latest releases or jump straight to the full catalog.
+          Featuring Maddie Blair and available everywhere you stream—tap below and explore the full catalog.
         </p>
         <Link href="/releases" className="hero__cta">
           <span className="release-link__icon" aria-hidden="true">

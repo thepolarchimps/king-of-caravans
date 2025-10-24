@@ -1,3 +1,9 @@
+export const metadata = {
+  title: 'Connect',
+  description:
+    'Connect with King of Caravans across Spotify, YouTube, Apple Music, email, and SoundCloud for the latest news.'
+};
+
 const connectLinks = [
   {
     label: 'Spotify',
@@ -16,7 +22,7 @@ const connectLinks = [
   },
   {
     label: 'Email',
-    href: 'mailto:hello@kingofcaravans.com',
+    href: 'mailto:info@kingofcaravans.co.uk',
     icon: 'envelope'
   },
   {

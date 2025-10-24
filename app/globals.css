@@ -243,6 +243,12 @@ img {
   font-family: 'Icomoon';
   font-size: 2rem;
   line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: none;
+  -webkit-font-feature-settings: 'liga';
+  font-feature-settings: 'liga';
 }
 
 .page-description {

@@ -1,6 +1,12 @@
 import ReleaseShowcase from '../../components/ReleaseShowcase';
 import releases from '../../data/releases.json';
 
+export const metadata = {
+  title: 'Releases',
+  description:
+    'Browse the full King of Caravans catalogue with streaming links for Spotify, YouTube, Apple Music, and more.'
+};
+
 const ReleasesPage = () => (
   <>
     <div className="page-wrapper">

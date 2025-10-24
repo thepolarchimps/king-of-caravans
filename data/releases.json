@@ -1,100 +1,362 @@
 [
   {
-    "id": "sisterbrotherlover",
-    "title": "SisterBrotherLover",
-    "type": "Single",
+    "id": "found-a-ballroom-feat-maddie-blair",
+    "title": "Found a Ballroom (feat. Maddie Blair)",
     "artwork": {
-      "src": "/images/king-of-caravans-sisterbrotherlover.jpg",
-      "alt": "Cover art for SisterBrotherLover by King of Caravans"
+      "src": "/images/artwork/FredAstaireAsHorse3_text.jpg",
+      "alt": "Found a Ballroom cover featuring Maddie Blair"
+    },
+    "links": [
+      {
+        "platform": "youtube",
+        "label": "YouTube",
+        "icon": "youtube",
+        "url": "https://youtu.be/CcBh5kzaS6o?si=mY1cDT3V_tDfTbd3",
+        "priority": 0
+      },
+      {
+        "platform": "spotify",
+        "label": "Spotify",
+        "icon": "spotify",
+        "url": "https://open.spotify.com/album/4TSGQ7935qc3AB3BwUHzl0?si=HmRdRP_8RTS4gySBnKAFuA",
+        "priority": 1
+      },
+      {
+        "platform": "applemusic",
+        "label": "Apple Music",
+        "icon": "applemusic",
+        "url": "https://music.apple.com/us/album/found-a-ballroom-feat-maddie-blair-single/1848034194",
+        "priority": 2
+      },
+      {
+        "platform": "more",
+        "label": "More...",
+        "icon": "music2",
+        "url": "https://distrokid.com/hyperfollow/kingofcaravans1/found-a-ballroom-feat-maddie-blair",
+        "priority": 3
+      }
+    ],
+    "theme": "dark",
+    "layout": "art-right"
+  },
+  {
+    "id": "facing-the-strange",
+    "title": "Facing The Strange",
+    "artwork": {
+      "src": "/images/FacingTheStrange7.1001.jpg",
+      "alt": "Facing The Strange artwork"
     },
     "links": [
       {
         "platform": "spotify",
+        "label": "Spotify",
+        "icon": "spotify",
+        "url": "https://prf.hn/click/camref:1101ljvYv/pubref:albumuuid%3D42356B0D-03F3-48FC-A672FDC5BF04E545/destination:https://open.spotify.com/album/5W6i2VGoLNRoGZ1CF8A2s6",
+        "priority": 0
+      },
+      {
+        "platform": "youtube",
+        "label": "YouTube",
+        "icon": "youtube",
+        "url": "https://www.youtube.com/watch?v=Iszuu4b_fN0",
+        "priority": 1
+      },
+      {
+        "platform": "applemusic",
+        "label": "Apple Music",
+        "icon": "applemusic",
+        "url": "https://music.apple.com/us/album/facing-the-strange-single/1725722890?uo=4",
+        "priority": 2
+      },
+      {
+        "platform": "more",
+        "label": "More...",
+        "icon": "music2",
+        "url": "https://distrokid.com/hyperfollow/kingofcaravans/facing-the-strange",
+        "priority": 3
+      }
+    ],
+    "theme": "light",
+    "layout": "art-right"
+  },
+  {
+    "id": "let-your-mind-out",
+    "title": "Let Your Mind Out",
+    "artwork": {
+      "src": "/images/DavesSpaceHorse8-squarejackedit.jpg",
+      "alt": "Let Your Mind Out artwork"
+    },
+    "links": [
+      {
+        "platform": "spotify",
+        "label": "Spotify",
+        "icon": "spotify",
+        "url": "https://open.spotify.com/track/2zqGX7VXc40zW8Zo7WbB74",
+        "priority": 0
+      },
+      {
+        "platform": "youtube",
+        "label": "YouTube",
+        "icon": "youtube",
+        "url": "https://youtu.be/ETEaIPCy7YM",
+        "priority": 1
+      },
+      {
+        "platform": "applemusic",
+        "label": "Apple Music",
+        "icon": "applemusic",
+        "url": "https://music.apple.com/gb/album/let-your-mind-out-single/1685845236",
+        "priority": 2
+      },
+      {
+        "platform": "more",
+        "label": "More...",
+        "icon": "music2",
+        "url": "https://distrokid.com/hyperfollow/kingofcaravans/let-your-mind-out",
+        "priority": 3
+      }
+    ],
+    "theme": "dark",
+    "layout": "art-left"
+  },
+  {
+    "id": "now-we-re-looking-forward",
+    "title": "Now We're Looking Forward",
+    "artwork": {
+      "src": "/images/now-were-looking-forward-washing-you-out-of-my-hair.jpg",
+      "alt": "Now We're Looking Forward artwork"
+    },
+    "links": [
+      {
+        "platform": "spotify",
+        "label": "Spotify",
+        "icon": "spotify",
+        "url": "https://prf.hn/click/camref:1101ljvYv/pubref:albumuuid%3DBE0A28AD-3A38-40DF-9833CDE47A5F69ED/destination:https://open.spotify.com/album/4LaHEPx3t6J61LmO6qYtKp",
+        "priority": 0
+      },
+      {
+        "platform": "youtube",
+        "label": "YouTube",
+        "icon": "youtube",
+        "url": "https://www.youtube.com/watch?v=wTCz_Wb6hho",
+        "priority": 1
+      },
+      {
+        "platform": "applemusic",
+        "label": "Apple Music",
+        "icon": "applemusic",
+        "url": "https://music.apple.com/us/album/now-were-looking-forward-single/1661172976?uo=4",
+        "priority": 2
+      },
+      {
+        "platform": "more",
+        "label": "More...",
+        "icon": "music2",
+        "url": "https://distrokid.com/hyperfollow/kingofcaravans/now-were-looking-forward-2",
+        "priority": 3
+      }
+    ],
+    "theme": "light",
+    "layout": "art-right"
+  },
+  {
+    "id": "buckaroo",
+    "title": "Buckaroo",
+    "artwork": {
+      "src": "/images/KingOfCaravansBuckarooBlackLogo.jpg",
+      "alt": "Buckaroo artwork"
+    },
+    "links": [
+      {
+        "platform": "spotify",
+        "label": "Spotify",
+        "icon": "spotify",
+        "url": "https://open.spotify.com/album/5WMXRFuL1dWYVI5BFbipY4?si=k6zPXOQETVur0HPofUBxEw",
+        "priority": 0
+      },
+      {
+        "platform": "youtube",
+        "label": "YouTube",
+        "icon": "youtube",
+        "url": "https://youtu.be/SU8Oo52M-TM",
+        "priority": 1
+      },
+      {
+        "platform": "applemusic",
+        "label": "Apple Music",
+        "icon": "applemusic",
+        "url": "https://music.apple.com/us/album/buckeroo-single/1623187384?uo=4",
+        "priority": 2
+      },
+      {
+        "platform": "more",
+        "label": "More...",
+        "icon": "music2",
+        "url": "https://distrokid.com/hyperfollow/kingofcaravans/buckeroo",
+        "priority": 3
+      }
+    ],
+    "theme": "dark",
+    "layout": "art-left"
+  },
+  {
+    "id": "dad-s-army-arrows",
+    "title": "Dad's Army Arrows",
+    "artwork": {
+      "src": "/images/king-of-caravans-dads-army-arrows.jpg",
+      "alt": "Dad's Army Arrows artwork"
+    },
+    "links": [
+      {
+        "platform": "spotify",
+        "label": "Spotify",
+        "icon": "spotify",
+        "url": "https://open.spotify.com/album/5vkfIuhBZ82PEOisRJ3V65?referral=labelaffiliate&utm_source=1100liVFsPMQ&utm_medium=Indie_Distrokid&utm_campaign=labelaffiliate",
+        "priority": 0
+      },
+      {
+        "platform": "youtube",
+        "label": "YouTube",
+        "icon": "youtube",
+        "url": "https://www.youtube.com/watch?v=fBr_SnCgtpY",
+        "priority": 1
+      },
+      {
+        "platform": "applemusic",
+        "label": "Apple Music",
+        "icon": "applemusic",
+        "url": "https://music.apple.com/us/album/dads-army-arrows/1605806194?uo=4",
+        "priority": 2
+      },
+      {
+        "platform": "more",
+        "label": "More...",
+        "icon": "music2",
+        "url": "https://distrokid.com/hyperfollow/kingofcaravans/dads-army-arrows",
+        "priority": 3
+      }
+    ],
+    "theme": "light",
+    "layout": "art-right"
+  },
+  {
+    "id": "sisterbrotherlover",
+    "title": "SisterBrotherLover",
+    "artwork": {
+      "src": "/images/king-of-caravans-sisterbrotherlover.jpg",
+      "alt": "SisterBrotherLover artwork"
+    },
+    "links": [
+      {
+        "platform": "spotify",
+        "label": "Spotify",
+        "icon": "spotify",
         "url": "https://open.spotify.com/album/1Grpoexs57KZbuu9FMLfNy",
         "priority": 0
       },
       {
         "platform": "youtube",
+        "label": "YouTube",
+        "icon": "youtube",
         "url": "https://www.youtube.com/watch?v=JmHpUfJOr0w",
         "priority": 1
       },
       {
         "platform": "applemusic",
+        "label": "Apple Music",
+        "icon": "applemusic",
         "url": "https://music.apple.com/us/album/sisterbrotherlover-single/1542535295?uo=4",
         "priority": 2
       },
       {
         "platform": "more",
         "label": "More...",
+        "icon": "music2",
         "url": "https://distrokid.com/hyperfollow/kingofcaravans/sisterbrotherlover",
         "priority": 3
       }
-    ]
+    ],
+    "theme": "dark",
+    "layout": "art-left"
   },
   {
-    "id": "rolling-stone",
+    "id": "rolling-stone-it-s-time-to-take-the-blame",
     "title": "Rolling Stone (It's Time to Take the Blame)",
-    "type": "Single",
     "artwork": {
       "src": "/images/king-of-caravans-Rolling-Stone.png",
-      "alt": "Cover art for Rolling Stone (It's Time to Take the Blame) by King of Caravans"
+      "alt": "Rolling Stone (It's Time to Take the Blame) artwork"
     },
     "links": [
       {
         "platform": "spotify",
+        "label": "Spotify",
+        "icon": "spotify",
         "url": "https://open.spotify.com/album/5qd0WWqEJ6EpYgeJniXSgu",
         "priority": 0
       },
       {
         "platform": "youtube",
+        "label": "YouTube",
+        "icon": "youtube",
         "url": "https://www.youtube.com/watch?v=MGrjgHmsErw&list=OLAK5uy_n_FVHBhCV06BLGV0_qxpRJfturK2yUkfY",
         "priority": 1
       },
       {
         "platform": "applemusic",
+        "label": "Apple Music",
+        "icon": "applemusic",
         "url": "https://music.apple.com/us/album/rolling-stone-its-time-to-take-the-blame-single/1531421288?uo=4",
         "priority": 2
       },
       {
         "platform": "more",
         "label": "More...",
+        "icon": "music2",
         "url": "https://distrokid.com/hyperfollow/kingofcaravans/rolling-stone-its-time-to-take-the-blame",
         "priority": 3
       }
     ],
-    "layout": "art-left"
+    "theme": "light",
+    "layout": "art-right"
   },
   {
     "id": "damned-if-you-understand",
     "title": "Damned if You Understand",
-    "type": "EP",
     "artwork": {
       "src": "/images/king-of-caravans-damned-if-you-understand.png",
-      "alt": "Cover art for Damned if You Understand by King of Caravans"
+      "alt": "Damned if You Understand artwork"
     },
     "links": [
       {
         "platform": "spotify",
+        "label": "Spotify",
+        "icon": "spotify",
         "url": "https://open.spotify.com/album/69UAnNdv3xoPTw7e4UCdmW",
         "priority": 0
       },
       {
         "platform": "youtube",
+        "label": "YouTube",
+        "icon": "youtube",
         "url": "https://www.youtube.com/results?search_query=king+of+caravans+damned+if+you+understand",
         "priority": 1
       },
       {
         "platform": "applemusic",
+        "label": "Apple Music",
+        "icon": "applemusic",
         "url": "https://music.apple.com/us/album/damned-if-you-understand-ep/1492008100?uo=4",
         "priority": 2
       },
       {
         "platform": "more",
         "label": "More...",
+        "icon": "music2",
         "url": "https://distrokid.com/hyperfollow/kingofcaravans/damned-if-you-understand",
         "priority": 3
       }
     ],
-    "theme": "dark"
+    "theme": "dark",
+    "layout": "art-left"
   }
 ]

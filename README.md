@@ -20,6 +20,7 @@ npm run dev
 - `styles/release-showcase.css` – Presentation layer for the showcase, including hover motion and platform link styling.
 - `data/releases.json` – Structured release metadata that drives the showcase.
 - `schemas/release.schema.json` – JSON schema to validate future data sources.
+- Metadata (Open Graph, Twitter, structured data) lives in `app/layout.jsx` so you can tweak share images or schema information in a single place.
 
 ## Page overview
 
