@@ -42,6 +42,32 @@ const RebelBandGallery = () => {
     const handleKeyDown = (event) => {
       if (event.key === 'Escape') {
         setLightboxIndex(null);
+        return;
+      }
+
+      if (event.key === 'ArrowRight') {
+        event.preventDefault();
+        setLightboxIndex((currentIndex) => {
+          if (currentIndex === null) {
+            return null;
+          }
+
+          const nextIndex = (currentIndex + 1) % galleryImages.length;
+          return nextIndex;
+        });
+        return;
+      }
+
+      if (event.key === 'ArrowLeft') {
+        event.preventDefault();
+        setLightboxIndex((currentIndex) => {
+          if (currentIndex === null) {
+            return null;
+          }
+
+          const nextIndex = (currentIndex - 1 + galleryImages.length) % galleryImages.length;
+          return nextIndex;
+        });
       }
     };
 

@@ -19,6 +19,7 @@ body {
   background-color: #000;
   color: #f5f5f5;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 a {
@@ -78,20 +79,50 @@ img {
 }
 
 .site-nav {
+  position: relative;
   display: flex;
-  gap: clamp(1rem, 4vw, 2rem);
+  align-items: center;
+  gap: clamp(1rem, 3vw, 1.75rem);
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-size: 0.95rem;
 }
 
-.site-nav a {
+.site-nav__links {
+  display: inline-flex;
+  align-items: center;
+  gap: clamp(1rem, 4vw, 2rem);
+}
+
+.site-nav__toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.6rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.05);
+  color: inherit;
+  letter-spacing: 0.24em;
+  font-size: 0.78rem;
+  cursor: pointer;
+  text-transform: inherit;
+}
+
+.site-nav__toggle:hover,
+.site-nav__toggle:focus-visible {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.55);
+}
+
+.site-nav__links a {
   position: relative;
   text-decoration: none;
   padding-bottom: 0.2rem;
 }
 
-.site-nav a::after {
+.site-nav__links a::after {
   content: '';
   position: absolute;
   left: 0;
@@ -104,9 +135,9 @@ img {
   transition: transform 180ms ease;
 }
 
-.site-nav a:hover::after,
-.site-nav a:focus-visible::after,
-.site-nav a[aria-current='page']::after {
+.site-nav__links a:hover::after,
+.site-nav__links a:focus-visible::after,
+.site-nav__links a[aria-current='page']::after {
   transform: scaleX(1);
   transform-origin: left;
 }
@@ -451,13 +482,48 @@ img {
 }
 
 @media (max-width: 768px) {
-  .site-nav {
-    font-size: 0.85rem;
+  .hero__headline {
     letter-spacing: 0.16em;
   }
 
-  .hero__headline {
+  .site-nav {
+    font-size: 0.85rem;
     letter-spacing: 0.16em;
+    gap: 0.5rem;
+  }
+
+  .site-nav__toggle {
+    display: inline-flex;
+  }
+
+  .site-nav__links {
+    position: absolute;
+    top: calc(100% + 0.85rem);
+    right: 0;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    width: min(280px, 85vw);
+    padding: 1.25rem 1.5rem;
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(5, 5, 5, 0.95);
+    box-shadow: 0 24px 60px -28px rgba(0, 0, 0, 0.75);
+    z-index: 5;
+  }
+
+  .site-nav--open .site-nav__links {
+    display: flex;
+  }
+
+  .site-nav__links a {
+    width: 100%;
+    padding-bottom: 0.35rem;
+  }
+
+  .site-nav__links a::after {
+    transform-origin: left;
   }
 }
 
