@@ -6,7 +6,8 @@ const platformDefaults = {
   youtube: { label: 'YouTube', icon: 'youtube' },
   applemusic: { label: 'Apple Music', icon: 'applemusic' },
   music: { label: 'Listen', icon: 'music' },
-  more: { label: 'More...', icon: 'music2' }
+  more: { label: 'More...', icon: 'music2' },
+  bandcamp: { label: 'Bandcamp', icon: 'bandcamp' }
 };
 
 /**

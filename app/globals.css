@@ -261,6 +261,195 @@ img {
   font-size: 0.85rem;
 }
 
+.project-hero {
+  position: relative;
+  isolation: isolate;
+  margin: clamp(2.5rem, 8vw, 4rem) auto;
+  padding: clamp(3rem, 7vw, 4.8rem);
+  max-width: 1100px;
+  border-radius: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: linear-gradient(150deg, rgba(12, 12, 12, 0.95), rgba(20, 20, 20, 0.75));
+  box-shadow: 0 45px 90px -35px rgba(0, 0, 0, 0.55);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 420px);
+  gap: clamp(2rem, 6vw, 3.5rem);
+}
+
+.project-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(circle at top right, rgba(92, 31, 235, 0.28), transparent 58%),
+              radial-gradient(circle at bottom left, rgba(235, 110, 31, 0.22), transparent 55%);
+  opacity: 0.9;
+  z-index: 0;
+}
+
+.project-hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+.project-hero__content {
+  display: grid;
+  gap: clamp(1.2rem, 2.6vw, 2rem);
+  align-content: start;
+}
+
+.project-hero__eyebrow {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.6em;
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+
+.project-hero__title {
+  margin: 0;
+  font-size: clamp(2.8rem, 5.6vw, 4.2rem);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+}
+
+.project-hero__lead,
+.project-hero__body {
+  margin: 0;
+  font-size: clamp(1rem, 1.6vw, 1.15rem);
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.8;
+}
+
+.project-hero__lead {
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.project-gallery {
+  display: grid;
+  align-content: start;
+  gap: 1.1rem;
+}
+
+.project-gallery__primary {
+  padding: 0;
+  border: none;
+  border-radius: 22px;
+  overflow: hidden;
+  cursor: zoom-in;
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: 0 40px 60px -35px rgba(0, 0, 0, 0.55);
+  transition: transform 220ms ease, box-shadow 220ms ease;
+}
+
+.project-gallery__primary img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 220ms ease;
+}
+
+.project-gallery__primary:hover,
+.project-gallery__primary:focus-visible {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 50px 80px -35px rgba(0, 0, 0, 0.6);
+}
+
+.project-gallery__primary:hover img,
+.project-gallery__primary:focus-visible img {
+  transform: scale(1.05);
+}
+
+.project-gallery__thumbs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.project-gallery__thumb {
+  padding: 0;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: zoom-in;
+  background: rgba(255, 255, 255, 0.04);
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
+.project-gallery__thumb img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 200ms ease;
+}
+
+.project-gallery__thumb:hover,
+.project-gallery__thumb:focus-visible {
+  transform: translateY(-2px) scale(1.01);
+  box-shadow: 0 30px 45px -30px rgba(0, 0, 0, 0.6);
+}
+
+.project-gallery__thumb:hover img,
+.project-gallery__thumb:focus-visible img {
+  transform: scale(1.04);
+}
+
+.project-lightbox {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  z-index: 100;
+}
+
+.project-lightbox__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(4px);
+}
+
+.project-lightbox__content {
+  position: relative;
+  z-index: 1;
+  width: min(92vw, 900px);
+  max-height: 90vh;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #050505;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 50px 120px -45px rgba(0, 0, 0, 0.75);
+}
+
+.project-lightbox__content img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: calc(90vh - 2.8rem);
+  object-fit: contain;
+}
+
+.project-lightbox__close {
+  position: absolute;
+  top: 0.85rem;
+  right: 0.85rem;
+  padding: 0.45rem 1.1rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+
+.project-lightbox__close:hover,
+.project-lightbox__close:focus-visible {
+  background: rgba(0, 0, 0, 0.8);
+}
+
 @media (max-width: 768px) {
   .site-nav {
     font-size: 0.85rem;
@@ -269,5 +458,16 @@ img {
 
   .hero__headline {
     letter-spacing: 0.16em;
+  }
+}
+
+@media (max-width: 960px) {
+  .project-hero {
+    grid-template-columns: 1fr;
+    padding: clamp(2.5rem, 9vw, 4rem);
+  }
+
+  .project-gallery__thumbs {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   }
 }

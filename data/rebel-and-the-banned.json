@@ -1,0 +1,169 @@
+[
+  {
+    "id": "sabraj",
+    "title": "SABRAJ",
+    "releaseDate": "19 April 2025",
+    "artwork": {
+      "src": "/images/ratb/artwork/ratb-sabraj.jpg",
+      "alt": "SABRAJ artwork"
+    },
+    "links": [
+      {
+        "platform": "spotify",
+        "url": "https://open.spotify.com/album/0DvjJUe5kdzWiAnu2zkn8O",
+        "priority": 0
+      },
+      {
+        "platform": "applemusic",
+        "url": "https://music.apple.com/us/album/sabraj-single/1808546101?uo=4",
+        "priority": 1
+      },
+      {
+        "platform": "youtube",
+        "url": "https://youtu.be/-gE7AhDZVR0?si=7JKQZ95ekDjW4qTs",
+        "priority": 2
+      },
+      {
+        "platform": "more",
+        "url": "https://distrokid.com/hyperfollow/rebelandthebanned/sabraj",
+        "priority": 3
+      }
+    ]
+  },
+  {
+    "id": "santa-drowned",
+    "title": "Santa Drowned",
+    "releaseDate": "19 December 2024",
+    "artwork": {
+      "src": "/images/ratb/artwork/ratb-santa-drowned.jpg",
+      "alt": "Santa Drowned artwork"
+    },
+    "links": [
+      {
+        "platform": "spotify",
+        "url": "https://open.spotify.com/album/2DGjWRpRG9MnOh1KD9ywis",
+        "priority": 0
+      },
+      {
+        "platform": "applemusic",
+        "url": "https://music.apple.com/us/album/santa-drowned-single/1786653103?uo=4",
+        "priority": 1
+      },
+      {
+        "platform": "youtube",
+        "url": "https://youtu.be/O2y1IIHqtb4?si=FZ9a1lq-z99PpxaC",
+        "priority": 2
+      },
+      {
+        "platform": "more",
+        "url": "https://distrokid.com/hyperfollow/rebelandthebanned/santa-drowned",
+        "priority": 3
+      }
+    ]
+  },
+  {
+    "id": "washing-you-out-of-my-hair",
+    "title": "Washing You Out Of My Hair",
+    "releaseDate": "29 November 2024",
+    "artwork": {
+      "src": "/images/ratb/artwork/ratb-washing.jpg",
+      "alt": "Washing You Out Of My Hair artwork"
+    },
+    "links": [
+      {
+        "platform": "spotify",
+        "url": "https://open.spotify.com/album/6gNxCXoOBpsC3xzfNVNhVE",
+        "priority": 0
+      },
+      {
+        "platform": "applemusic",
+        "url": "https://music.apple.com/us/album/washing-you-out-of-my-hair-single/1781685952?uo=4",
+        "priority": 1
+      },
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/watch?v=5GiO1_7G_Ds&list=RD5GiO1_7G_Ds&start_radio=1",
+        "priority": 2
+      },
+      {
+        "platform": "more",
+        "url": "https://distrokid.com/hyperfollow/rebelandthebanned/washing-you-out-of-my-hair",
+        "priority": 3
+      }
+    ]
+  },
+  {
+    "id": "three-degrees-radio-edit",
+    "title": "Three Degrees (Radio Edit)",
+    "releaseDate": "30 November 2023",
+    "artwork": {
+      "src": "/images/ratb/artwork/ratb-three-degrees.jpg",
+      "alt": "Three Degrees (Radio Edit) artwork"
+    },
+    "links": [
+      {
+        "platform": "spotify",
+        "url": "https://open.spotify.com/album/4IdQn7agt4B0RcylXP8A9f",
+        "priority": 0
+      },
+      {
+        "platform": "applemusic",
+        "url": "https://music.apple.com/us/album/three-degrees-radio-edit-single/1719204687?uo=4",
+        "priority": 1
+      },
+      {
+        "platform": "youtube",
+        "url": "https://youtu.be/wQAhtE-Vg5g?si=YIsBNqhm7WIyX_Ge",
+        "priority": 2
+      },
+      {
+        "platform": "bandcamp",
+        "label": "Bandcamp",
+        "url": "https://rebelandthebanned.bandcamp.com/track/three-degrees-radio-edit",
+        "priority": 3
+      },
+      {
+        "platform": "more",
+        "url": "https://distrokid.com/hyperfollow/rebelandthebanned/three-degrees-radio-edit",
+        "priority": 4
+      }
+    ]
+  },
+  {
+    "id": "three-degrees-explicit",
+    "title": "Three Degrees (Explicit)",
+    "releaseDate": "17 November 2023",
+    "artwork": {
+      "src": "/images/ratb/artwork/ratb-three-degrees.jpg",
+      "alt": "Three Degrees (Explicit) artwork"
+    },
+    "links": [
+      {
+        "platform": "spotify",
+        "url": "https://open.spotify.com/album/2YAKLvswpgjhI7TslEJK5o",
+        "priority": 0
+      },
+      {
+        "platform": "applemusic",
+        "url": "https://music.apple.com/us/album/three-degrees-single/1717196964?uo=4",
+        "priority": 1
+      },
+      {
+        "platform": "youtube",
+        "url": "https://youtu.be/pd-99hRyrJo?si=-Zmz1TXl2WFu-mG1",
+        "priority": 2
+      },
+      {
+        "platform": "bandcamp",
+        "label": "Bandcamp",
+        "url": "https://rebelandthebanned.bandcamp.com/track/three-degrees",
+        "priority": 3
+      },
+      {
+        "platform": "more",
+        "url": "https://distrokid.com/hyperfollow/rebelandthebanned/three-degrees",
+        "priority": 4
+      }
+    ]
+  }
+]

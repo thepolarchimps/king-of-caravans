@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation';
 
 const navItems = [
   { href: '/', label: 'Home' },
+  { href: '/rebel-and-the-banned', label: 'Rebel & The Banned' },
   { href: '/releases', label: 'Releases' },
   { href: '/connect', label: 'Connect' }
 ];
