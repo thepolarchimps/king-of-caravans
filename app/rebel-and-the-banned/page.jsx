@@ -15,7 +15,7 @@ const RebelAndTheBannedPage = () => (
         <p className="project-hero__eyebrow">Band Project</p>
         <h1 className="project-hero__title">Rebel and the Banned</h1>
         <p className="project-hero__lead">
-          Conceived by King Of Caravans, Rebel and the Banned is a collaborative outlet where the songwriting pen
+          Conceived withKing Of Caravans, Rebel and the Banned is a collaborative outlet where the songwriting pen
           stays firmly in-house while the live band fractures the edges of alt-pop, post-punk, and cinematic rock.
         </p>
         <p className="project-hero__body">
